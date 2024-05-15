@@ -7,8 +7,8 @@
 #include <Adafruit_SSD1306.h>
 
 // Firebase Endpoint/path & Authentication
-#define FIREBASE_HOST "https://m-testing-3373a-default-rtdb.asia-southeast1.firebasedatabase.app/"
-#define FIREBASE_AUTH "NH5RYKcbJzNML4QxsM9R1MxUg17929oENqboBm6U"
+#define FIREBASE_HOST " URL "   // End point
+#define FIREBASE_AUTH " Key "  // Authentication key
 
 // Defining Pins of esp32 to sensors
 #define LED_PIN 2
@@ -56,7 +56,7 @@ void setup() {
   pinMode(echoPin, INPUT);
 
   // Wifi Credentials and message
-  WiFi.begin("Sai", "saisaisai");
+  WiFi.begin("SSID", "Password");
  
   Serial.print("Connecting to WiFi");
   while (WiFi.status() != WL_CONNECTED) {
