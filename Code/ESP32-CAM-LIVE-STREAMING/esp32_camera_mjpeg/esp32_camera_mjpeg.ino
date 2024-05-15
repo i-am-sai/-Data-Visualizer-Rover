@@ -13,8 +13,8 @@
 
 #include "camera_pins.h"
 
-#define SSID1 "Sai"
-#define PWD1 "saisaisai"
+#define SSID1 " SSID "
+#define PWD1 " Password "
 
 static const int servoPin = 14;
 
