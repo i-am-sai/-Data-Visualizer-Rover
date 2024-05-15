@@ -1,8 +1,9 @@
  #include <IOXhop_FirebaseESP32.h>
 #include <ESP32Servo.h>
 
-#define FIREBASE_HOST "https://m-testing-3373a-default-rtdb.asia-southeast1.firebasedatabase.app/"
-#define FIREBASE_AUTH "NH5RYKcbJzNML4QxsM9R1MxUg17929oENqboBm6U"
+// Firebase credentials
+#define FIREBASE_HOST " URL "   // End Point
+#define FIREBASE_AUTH " Key "   // Authentication Key
 #define soil_mositure_pin 21  //change it to  21
 static const int servoPin = 13;
 
@@ -34,7 +35,7 @@ unsigned long debounceDelay = 10; // Debounce time in milliseconds
 
 void setup() {
   Serial.begin(115200);
-  WiFi.begin("Sai", "saisaisai");
+  WiFi.begin("SSID ", "Password");
 
   Serial.print("Connecting to WiFi");
   while (WiFi.status() != WL_CONNECTED) {
